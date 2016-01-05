@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/basweerman/Temp/XiDroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/basweerman/Temp/XiDroid/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-29d767f568a52859bc891fbcfa83ca520af8f38c.jar" />
+    </item>
+    <item
+        jar="/home/basweerman/Temp/XiDroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/basweerman/Temp/XiDroid/app/build/intermediates/pre-dexed/debug/classes-ff59369fad264abb86cdde7da2084f133ba6d634.jar" />
+    </item>
+    <item
+        jar="/home/basweerman/Temp/XiDroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/basweerman/Temp/XiDroid/app/build/intermediates/pre-dexed/debug/classes-065a2a32579a5892d31c7ca1a357ac18eb59af48.jar" />
+    </item>
+    <item
+        jar="/home/basweerman/Temp/XiDroid/app/build/intermediates/exploded-aar/eu.chainfire/libsuperuser/1.0.0.201510071325/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f285b8a05b415334d7cb85a3e7b29395721cb749">
+        <dex dex="/home/basweerman/Temp/XiDroid/app/build/intermediates/pre-dexed/debug/classes-22edc4ff90c3655678299bc977022b5fdb05bfa2.jar" />
+    </item>
+    <item
+        jar="/home/basweerman/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/home/basweerman/Temp/XiDroid/app/build/intermediates/pre-dexed/debug/gson-2.2.4-3dbc36f6c9d8ab0bc678f46a1af4017d515a64a9.jar" />
+    </item>
+    <item
+        jar="/home/basweerman/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/14.0.1/69e12f4c6aeac392555f1ea86fab82b5e5e31ad4/guava-14.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="69e12f4c6aeac392555f1ea86fab82b5e5e31ad4">
+        <dex dex="/home/basweerman/Temp/XiDroid/app/build/intermediates/pre-dexed/debug/guava-14.0.1-11ed721727fe0b186a17910495a8dc73e36ea4aa.jar" />
+    </item>
+    <item
+        jar="/home/basweerman/Temp/XiDroid/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/home/basweerman/Temp/XiDroid/app/build/intermediates/pre-dexed/debug/classes-6d20f9f0814748c3c4e2411c221129fab6727477.jar" />
+    </item>
+    <item
+        jar="/home/basweerman/Temp/XiDroid/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/home/basweerman/Temp/XiDroid/app/build/intermediates/pre-dexed/debug/classes-6374a9ea61453411a4f728288a32aa9359b061ad.jar" />
+    </item>
+    <item
+        jar="/home/basweerman/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/basweerman/Temp/XiDroid/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-a0bfde122998f67e1d053ee789ba53165130d4b5.jar" />
+    </item>
+
+</items>

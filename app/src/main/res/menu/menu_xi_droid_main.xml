@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ZiDroidMain">
+    <item android:id="@+id/action_browse" android:title="@string/action_browse"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_upload" android:title="@string/action_upload"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_admin" android:title="@string/action_admin"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_about" android:title="@string/action_about"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+</menu>
