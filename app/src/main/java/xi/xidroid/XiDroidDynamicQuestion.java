@@ -6,6 +6,7 @@ import android.graphics.drawable.Drawable;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.widget.LinearLayout;
+import android.widget.RadioButton;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -113,5 +114,17 @@ public class XiDroidDynamicQuestion {
         return row2;
     }
 
-
+    public double getAnswer(){
+     /*   for (RadioButton rbutton : radioButtons) {
+            if (rbutton.isChecked()){
+                return radioButtons.indexOf(rbutton) + 1;
+            }
+        }*/
+        if (seekBar != null){
+            if (seekBarClicked){ //has been clicked?
+                return (((double) seekBar.getProgress() / 100) * 3) + 1;
+            }
+        }
+        return -1;
+    }
 }

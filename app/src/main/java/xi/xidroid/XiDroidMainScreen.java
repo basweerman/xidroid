@@ -87,6 +87,7 @@ public class XiDroidMainScreen extends AppCompatActivity implements View.OnClick
 
     //Questions
     LinearLayout questionLayout;
+    List<XiDroidDynamicQuestion> dynamicQuestions = new ArrayList<XiDroidDynamicQuestion>();
 
     //SURVEYS
     WebView webView;
@@ -859,7 +860,7 @@ public class XiDroidMainScreen extends AppCompatActivity implements View.OnClick
         temp.addView(tv);
 
 
-        List<XiDroidDynamicQuestion> dynamicQuestions = new ArrayList<XiDroidDynamicQuestion>();
+
         dynamicQuestions.add(new XiDroidDynamicQuestion(XiDroidDynamicQuestion.Q_RADIOBUTTON_SCALE, 1));
         dynamicQuestions.get(0).createSliderScale(this, R.id.questionLayout, "q1", "not stressed", "very stressed");
         dynamicQuestions.add(new XiDroidDynamicQuestion(XiDroidDynamicQuestion.Q_RADIOBUTTON_SCALE, 2));
@@ -878,6 +879,12 @@ public class XiDroidMainScreen extends AppCompatActivity implements View.OnClick
         submitButton.setText(" SUBMIT >> ");
         submitButton.setTextColor(getResources().getColor(R.color.colorPrimary));
         submitButton.setBackgroundResource(R.drawable.xidroid_buttons);
+        submitButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                AnswerQuestionIntent(v);
+                // Perform action on click
+            }
+        });
         temp.addView(submitButton);
 /*
 
@@ -901,6 +908,25 @@ public class XiDroidMainScreen extends AppCompatActivity implements View.OnClick
 
     }
 
+    public void AnswerQuestionIntent(View v){
+        double answer1 = dynamicQuestions.get(0).getAnswer();
+        double answer2 = dynamicQuestions.get(1).getAnswer();
+        double answer3 = dynamicQuestions.get(2).getAnswer();
+
+        double answer4 = dynamicQuestions.get(3).getAnswer();
+        double answer5 = dynamicQuestions.get(4).getAnswer();
+
+        if (answer1 == -1 || answer2 == -1 || answer3 == -1 || answer4 == -1 || answer5 == -1){
+            Toast.makeText(this.getBaseContext(), ((XiDroidApplication)getApplicationContext()).settings.texts.getText("pleaseAnswerAllQuestionsMessage"), Toast.LENGTH_LONG).show();
+        }
+        else { //save and move away
+            LinearLayout temp = (LinearLayout) findViewById(R.id.questionLayout);
+            temp.removeAllViewsInLayout();
+            dynamicQuestions.clear();
+            homeOnClickListenerIntent();
+        }
+
+    }
 
 
 
